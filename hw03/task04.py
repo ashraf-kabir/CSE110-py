@@ -13,3 +13,4 @@ elif (age >=18):
         print(tax)
     elif (payment > 20000):
         tax = payment * 10/100
+        print(tax)
