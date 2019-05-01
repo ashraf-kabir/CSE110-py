@@ -90,10 +90,10 @@ Write javacode of a program which takes a number and prints the digits from unit
 Example: if user gives 32768, then print 8, 6, 7, 2, 3
 Hint: Taking remainder/modulus of division by 10.
 After printing the remainder, drop the last digit by dividing by 10. Then start over.
-32,768 % 10 = 8
-32,768 / 10 = 3, 276
-3, 276 % 10 = 6
-3, 276 / 10 = 327
+32768 % 10 = 8
+32768 / 10 = 3276
+3276 % 10 = 6
+3276 / 10 = 327
 327 % 10 = 7
 327 / 10 = 32
 32 % 10 = 2
