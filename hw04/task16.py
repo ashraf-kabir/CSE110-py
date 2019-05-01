@@ -1,8 +1,5 @@
 n = float(input('Enter number:\n'))
-sum = n
-avg = 0
-max = n
-min = n
+sum, avg, max, min = n, 0, n, n
 for i in range(1, 10):
     m = float(input('Enter number:\n'))
     if (m>max):
