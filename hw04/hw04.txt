@@ -86,8 +86,7 @@ like sum=sum+n, you need to write, product = product x 10
 100 x 10 = 1000
 
 Task 20:
-Write javacode of a program which takes a number and prints the digits from unit place, then tenth, then
-hundredth, etc.
+Write javacode of a program which takes a number and prints the digits from unit place, then tenth, then hundredth, etc.
 Example: if user gives 32768, then print 8, 6, 7, 2, 3
 Hint: Taking remainder/modulus of division by 10.
 After printing the remainder, drop the last digit by dividing by 10. Then start over.
