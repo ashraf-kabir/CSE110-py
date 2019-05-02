@@ -4,13 +4,13 @@ m = int(input('Enter ending number:\n'))
 primeC = 0
 perfectC = 0
 i = n
-while(n<=m):
+for i in range(n<=m+1):
     sum = 0
     factorC = 0
-
-    for div in range(1, div<n):
-        if (n%div==0):
-            sum+=div
+    d = 1
+    for d in range(1, d<n):
+        if (n%d==0):
+            sum+=d
             factorC+=1
     
 
