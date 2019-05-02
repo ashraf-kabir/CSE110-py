@@ -118,7 +118,7 @@ Loop 1: First count digits, say 5 in this case for 32768
 Loop 2: Then calculate 10 to the power 4 (5-1), that is 10000.
 Loop 3: Then repeat following three steps
 32768 / 10000 = 3
-32768 % 10000 = 2,768
+32768 % 10000 = 2768
 10000/10 = 1000
 2768 / 1000 = 2
 2768 % 1000 = 768

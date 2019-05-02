@@ -1,15 +1,19 @@
 num = int(input('Enter a number:\n'))
 count = 0
-reverse = 0
-while (num>0):
-    reminder = num%10
-    reverse = reminder
-    num = num//10
+m = 0
+temp = num
+
+while (temp>0):
+    temp = temp // 10
     count += 1
-    print(reverse, sep='', end=', ', flush=True)
+prod = 10 ** (count - 1)
+x = prod
+
+while (num>0):
+    m = num / int(prod)
+    num %= int(prod)
+    prod = prod//10
+    print(int(m), sep='', end=', ', flush=True)
 print('\n')
 print(count)
-
-x = 10 ** (count - 1)
-
 print(x)
