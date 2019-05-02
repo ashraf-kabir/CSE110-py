@@ -14,7 +14,7 @@ while(n<=m):
             factorC+=1
     
 
-    if factorC==2:z
+    if factorC==2:
         primeC+=1
     if sum==n:
         perfectC+=1
