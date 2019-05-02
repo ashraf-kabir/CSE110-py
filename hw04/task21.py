@@ -1,8 +1,5 @@
 num = int(input('Enter a number:\n'))
-count = 0
-m = 0
-temp = num
-
+count, m, temp = 0, 0, num
 while (temp>0):
     temp = temp // 10
     count += 1
