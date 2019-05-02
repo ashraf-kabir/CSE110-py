@@ -1,9 +1,7 @@
 nterms = 10
-
 a = 0
 b = 1
 count = 0
-
 if nterms <= 0:
    print("Please enter a positive integer")
 elif nterms == 1:
