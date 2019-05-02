@@ -5,7 +5,7 @@ while (temp>0):
     count += 1
 prod = 10 ** (count - 1)
 x = prod
-
+result = ''
 while (num>0):
     m = num / int(prod)
     num %= int(prod)
