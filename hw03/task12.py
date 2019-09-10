@@ -1,7 +1,7 @@
-grade1 = float(input('Enter the grade of CSE110:\n'))
-grade2 = float(input('Enter the grade of ENG091:\n'))
-grade3 = float(input('Enter the grade of MAT110:\n'))
-grade4 = float(input('Enter the grade of PHY111:\n'))
+grade1 = float(input('Enter the grade point of CSE110:\n'))
+grade2 = float(input('Enter the grade point of ENG091:\n'))
+grade3 = float(input('Enter the grade point of MAT110:\n'))
+grade4 = float(input('Enter the grade point of PHY111:\n'))
 
 credit1 = 3.0
 credit2 = 0.0
