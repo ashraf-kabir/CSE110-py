@@ -8,6 +8,6 @@ credit2 = 0.0
 credit3 = 3.0
 credit4 = 3.0
 
-GPA = (grade1*credit1 + grade2*credit2 + grade3*credit3 + grade4*credit4)/(credit1+credit2+credit3+credit4)
+GPA = (grade1*credit1+grade2*credit2+grade3*credit3+grade4*credit4)/(credit1+credit2+credit3+credit4)
 
 print('Your GPA is ' + str(GPA))
